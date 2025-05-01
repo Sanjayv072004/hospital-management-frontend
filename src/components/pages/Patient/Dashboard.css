@@ -1,0 +1,236 @@
+.patient-dashboard-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .dashboard-card {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    width: 250px;
+    transition: transform 0.3s, background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-card:hover {
+    color: #0056b3;
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+  }
+  
+  .dashboard-card h2 {
+    margin-top: 1rem;
+  }
+  .appointment-container {
+    padding: 20px;
+  }
+  
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .dashboard-container {
+    display: flex;
+  }
+  
+ 
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  
+  .sidebar {
+    width: 250px;
+    background-color: #005b96; /* Dark theme like VS Code */
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+  
+  }
+  
+  .sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #72838e;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .appointment-history-container {
+    display: flex;
+    align-items: flex-start; /* Keep sidebar & content aligned */
+    gap: 20px; /* Adds spacing between sidebar and main content */
+  }
+  
+  .sidebar {
+    width: 250px;
+    min-height: 100vh;
+  }
+  
+  .appointment-list {
+    flex-grow: 1; /* Allow appointment history to expand */
+    padding: 20px;
+  }
+  
+  .appointment-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    width: 80%;
+  }
+  
+  .appointment-card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .appointment-card:nth-child(odd) {
+    background-color: #f9f9f9; /* Alternating colors for better readability */
+  }
+  .appointment-form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #007bff;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .book-appointment-button {
+    margin-top: 15px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .book-appointment-button:hover {
+    background: #333;
+  }
+  .messages-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    max-width: 70%;
+    word-wrap: break-word;
+    position: relative;
+  }
+  
+  .patient-message {
+    background-color: #0078ff;
+    color: #fff;
+    align-self: flex-end;
+  }
+  
+  .doctor-message {
+    background-color: #e1e1e1;
+    color: #333;
+    align-self: flex-start;
+  }
+  
+  .timestamp {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+    text-align: right;
+  }
+  .logout-button {
+    padding: 10px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .logout-button:hover {
+    background-color: #cc0000;
+  }

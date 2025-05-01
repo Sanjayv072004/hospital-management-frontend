@@ -1,0 +1,37 @@
+.dashboard-container {
+    display: flex;
+  }
+  
+  .patient-list-container {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .no-patients {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .patient-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .patient-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .patient-name {
+    font-weight: bold;
+  }
+  
+  .patient-email {
+    color: #666;
+  }
